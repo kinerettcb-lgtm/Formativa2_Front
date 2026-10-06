@@ -1,0 +1,42 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+header{
+    width: 100% ;
+    height: auto;
+    background-color: #465B75;
+
+}
+/*nav*/
+.nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 40px;
+    background-color: #465B75;
+    align-items: self-start;
+}
+.nav_links{
+    display: flex;
+    gap: 30px;
+}
+.nav_logo img{
+    
+    padding: 10px;
+}
+h1{
+color: ivory;
+}
